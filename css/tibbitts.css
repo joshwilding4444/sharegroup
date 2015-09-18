@@ -1,0 +1,52 @@
+/*Christopher Tibbitts*/
+
+body {
+background-color: #63AFD0;
+}
+
+.navbar {
+  background-color:#25935f;
+  position: fixed;
+  top: 0;
+  margin-left:1%;
+  width: 680px;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.navbarlist li {
+display: inline;
+padding: 30px;
+}
+
+.navbarlist a {
+  text-decoration: none;
+}
+
+.navbarlist a:hover {
+  color: #63AFD0;
+}
+
+.navbarlist {
+  text-align: left;
+}
+
+.navbarsearchbox {
+  font-family: sans-serif;
+  font-size: 18px;
+  color:#606864;
+  border-radius: 4px 4px 4px 4px;
+  border-color:#25935f;
+  border-style:solid;
+  border-width: 0px;
+}
+
+.content {
+
+}
+
+.border {
+  border: solid;
+  width: 32%;
+
+}
