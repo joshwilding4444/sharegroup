@@ -1,0 +1,74 @@
+/*Terik*/
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.navbar {
+  background-color:#25935f;
+  position: fixed;
+  top:0;
+  margin-left:2%;
+  width:95%;
+  height: 20%;
+  margin-right:0;
+  border-radius: 0px 0px 20px 20px;
+}
+.home-body {
+  text-align: center;
+  margin-top: 160px;
+}
+.clear-fix {
+  clear: both;
+}
+form.search {
+  height: 25%;
+}
+ul.menu-list {
+  float:left;
+  width: 96%;
+  margin-right: 0;
+}
+li.menu-item {
+  list-style-type: none;
+  display: inline;
+}
+a.menu-link {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+div.search-container {
+  float:right;
+  margin-top: 0;
+  margin-right: 2%;
+  margin-bottom: 0;
+}
+input.search-box {
+  position:relative;
+  margin-top:0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding:0;
+  width:100%;
+  float:right;
+  font-style:italic;
+  font-family: sans-serif;
+  font-size: 18px;
+  color:#606864;
+  border-radius: 4px 4px 4px 4px;
+  border-color:#25935f;
+  border-style:solid;
+  border-width: 0px;
+}
+
+/*
+  SOURCES:
+    http://www.w3schools.com/tags/tag_input.asp
+    http://www.w3schools.com/tags/ref_colorpicker.asp
+    http://www.w3schools.com/css/css_howto.asp
+    http://www.w3schools.com/cssref/css3_pr_border-radius.asp
+    http://www.w3schools.com/tags/ref_eventattributes.asp
+    http://www.w3schools.com/html/html_lists.asp
+*/
