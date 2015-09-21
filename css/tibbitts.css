@@ -8,7 +8,7 @@ background-color: #63AFD0;
   background-color:#25935f;
   position: fixed;
   top: 0;
-  margin-left:1%;
+  margin-left:45%;
   width: 680px;
   height: 60px;
   border-radius: 0px 0px 20px 20px;
@@ -42,11 +42,40 @@ padding: 30px;
 }
 
 .content {
-
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .border {
-  border: solid;
-  width: 32%;
+  width: 306px;
+  border: solid 1px black;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
 
+.header {
+  margin-left: 10%;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.buttonleft {
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.buttonright {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.photosize {
+  width: 300px;
+  height: 300px;
 }
