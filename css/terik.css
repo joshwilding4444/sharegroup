@@ -1,21 +1,41 @@
-/*Terik*/
+/*Joshua Brian Wilding*/
 body {
   font-family: sans-serif;
   font-size: 17px;
+  margin:0;
+}
+.jw-logo {
+  position:fixed;
+  float:left;
+  height: 150px;
+  width: 150px;
+  border-radius: 0px 0px 20px 10px;
+  top:0;
+  margin-right:0;
+  margin-left: 5%;
+  margin-bottom:0;
+  padding: 0%;
+  background-color:#25935f;
+}
+img.jw-logo {
+  margin:0;
+  padding:0;
 }
 .navbar {
   background-color:#25935f;
   position: fixed;
+  float:left;
   top:0;
-  margin-left:2%;
-  width:95%;
-  height: 20%;
+  margin-left:13%;
+  width:80%;
+  height: 60px;
   margin-right:0;
-  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 0;
+  border-radius: 0px 0px 20px 0px;
 }
-.home-body {
-  text-align: center;
-  margin-top: 160px;
+.main-body {
+  margin-left:6%;
+  margin-right:6%;
 }
 .clear-fix {
   clear: both;
@@ -23,14 +43,18 @@ body {
 form.search {
   height: 25%;
 }
-ul.menu-list {
+ul.menu-list {#66B38F;
   float:left;
   width: 96%;
   margin-right: 0;
+  padding-left: 0;
 }
 li.menu-item {
   list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%;
   display: inline;
+  padding-left: 0;
 }
 a.menu-link {
   font-family: sans-serif;
@@ -39,19 +63,30 @@ a.menu-link {
   color: #FFFFFF;
   text-decoration: none;
 }
-div.search-container {
-  float:right;
-  margin-top: 0;
-  margin-right: 2%;
+.search-container {
+  float:center;
+  margin-top: 60px;
+  margin-left: 13%;
+  margin-right:0;
   margin-bottom: 0;
+  padding:0;
+  position:relative;
+  background-color:#66B38F;
+  height:90px;
+  width: 60%;
+  /*border-color:#66B38F;
+  border-style: solid;*/
+  border-radius: 0px 0px 20px 20px;
+  /*margin-left:150px;*/
 }
 input.search-box {
   position:relative;
-  margin-top:0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-top:2.5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 2.5%;
   padding:0;
-  width:100%;
+  width:90%;
   float:right;
   font-style:italic;
   font-family: sans-serif;
@@ -62,7 +97,21 @@ input.search-box {
   border-style:solid;
   border-width: 0px;
 }
+.home-body{
+text-align: center;
+margin-top:150px;
+margin-left: 700px;
+position: absolute;
 
+}
+.buttons{
+text-align: center;
+margin-top:140px;
+margin-left: 840px;
+position: absolute;
+
+}
+}
 /*
   SOURCES:
     http://www.w3schools.com/tags/tag_input.asp
