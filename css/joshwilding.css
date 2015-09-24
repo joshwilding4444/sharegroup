@@ -102,10 +102,30 @@ input.search-box {
   border-style:solid;
   border-width: 0px;
 }
-.jw-saved-search-container {
+div.jw-saved-search-container {
   background-color: #85C2A5;
+  position:fixed;
+  float:left;
+  padding:0;
+  margin-left: 160px;
+  margin-top: 120px;
+}
+ul.jw-saved-search-container {
   font-style: italic;
+  color: #FFFFFF;
   font-size: 16px;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+li.jw-saved-search-container {
+  border-style:solid;
+  margin: 0;
+  border-width:5px;
+  border-color: #000000;
+  padding-top:11px;
+  padding-bottom:11px;
+  padding-right: 20px;
 }
 
 /*
