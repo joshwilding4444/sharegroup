@@ -1,123 +1,151 @@
-/*Joshua Brian Wilding*/
-body {
-  font-family: sans-serif;
-  font-size: 17px;
-  margin:0;
+.clear-fix {
+  clear: both;
 }
-.jw-logo {
-  position:fixed;
-  float:left;
-  height: 150px;
-  width: 150px;
-  border-radius: 0px 0px 20px 10px;
+/*
+  !NAVIGATION
+*/
+.jw-main-navigation {
+  position: fixed;
+  float: left;
   top:0;
-  margin-right:0;
-  margin-left: 5%;
-  margin-bottom:0;
-  padding: 0%;
+  margin-left: 4%;
+  margin-right: 5%;
+  width: 90%;
+  height: 16%;
+}
+/*
+  !LOGO
+*/
+.jw-logo {
+  position:relative;
+  float:left;
+  margin: 0;
+  top:0;
+  padding: 0;
+  height: 100%;
+  width: 9%;
+  border-radius: 0px 0px 0px 10px;
   background-color:#25935f;
 }
 img.jw-logo {
   margin:0;
   padding:0;
+  width: 100%;
 }
-.navbar {
-  background-color:#25935f;
-  position: fixed;
+/*
+  !NAVBAR
+*/
+.jw-navbar {
+  position: relative;
   float:left;
+  background-color:#25935f;
   top:0;
-  margin-left:13%;
-  width:80%;
-  height: 60px;
-  margin-right:0;
-  margin-bottom: 0;
-  border-radius: 0px 0px 20px 0px;
+  margin:0;
+  width:91%;
+  height: 38%;
 }
-.main-body {
-  margin-left:6%;
-  margin-right:6%;
-}
-.clear-fix {
-  clear: both;
-}
-form.search {
-  height: 25%;
-}
-ul.menu-list {#66B38F;
+ul.jw-navbar {
+  position:relative;
   float:left;
   width: 96%;
   margin-right: 0;
   padding-left: 0;
-}
-li.menu-item {
+  margin-top:0.5%;
   list-style-type: none;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: inline;
+}
+li.jw-navbar {
+  position:relative;
+  margin-left: 3%;
+  margin-right: 3%;
   padding-left: 0;
+  margin-top:0%;
+  width: 3%;
+  display: inline;
 }
-a.menu-link {
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: bold;
+a.jw-navbar {
   color: #FFFFFF;
+  font-family: sans-serif;
+  font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
 }
-.search-container {
-  float:center;
-  margin-top: 60px;
-  margin-left: 13%;
-  margin-right:0;
+/*
+  !SEARCH CONTAINER
+*/
+.jw-search-container {
+  position: relative;
+  float:left;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right:0%;
   margin-bottom: 0;
   padding:0;
-  position:relative;
   background-color:#66B38F;
-  height:90px;
-  width: 60%;
-  /*border-color:#66B38F;
-  border-style: solid;*/
-  border-radius: 0px 0px 20px 20px;
-  /*margin-left:150px;*/
+  height:62%;
+  width: 91%;
+  border-radius: 0px 0px 20px 0px;
 }
-input.search-box {
+form.jw-search-container {
   position:relative;
-  margin-top:2.5%;
+  height: 25%;
+}
+/*
+  !SEARCH BOX
+*/
+input.jw-search-box {
+  position:relative;
+  float:left;
+  margin-top:2.3%;
   margin-right: 5%;
   margin-bottom: 5%;
-  margin-left: 2.5%;
+  margin-left: 5%;
   padding:0;
-  width:90%;
-  float:right;
+  width: 40%;
+  height: 20%;
   font-style:italic;
   font-family: sans-serif;
   font-size: 18px;
-  color:#606864;
+  color:#FFFFFF;
   border-radius: 4px 4px 4px 4px;
   border-color:#25935f;
   border-style:solid;
   border-width: 0px;
 }
-.home-body{
-text-align: center;
-margin-top:150px;
-margin-left: 700px;
-position: absolute;
+/*
+  !SAVED SEARCH CONTAINER
+*/
 
-}
-.buttons{
-text-align: center;
-margin-top:140px;
-margin-left: 840px;
-position: absolute;
-
-}
+li.jw-saved-search-container {
+  margin: 0;
+  border-width:5px;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-right: 20px;
+  padding-left: 1%;
+  border-style:solid;
+  border-color: #25935f;
 }
 /*
-  SOURCES:
-    http://www.w3schools.com/tags/tag_input.asp
-    http://www.w3schools.com/tags/ref_colorpicker.asp
-    http://www.w3schools.com/css/css_howto.asp
-    http://www.w3schools.com/cssref/css3_pr_border-radius.asp
-    http://www.w3schools.com/tags/ref_eventattributes.asp
-    http://www.w3schools.com/html/html_lists.asp
+  !BODY
 */
+body {
+  margin-left:0;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.home-body {
+  text-align:center;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+.buttons{
+text-align:center;
+  margin-left:47%;
+  margin-right:50%;
+  margin-top: 750px;	
+}
+.homeicon{
+	height: 30px;
+}
