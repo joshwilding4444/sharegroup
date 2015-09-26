@@ -2,72 +2,231 @@
       Matt Morris
 \*--------------------*/
 
-body {
-  font-family: sans-serif;
-  font-size: 17px;
-}
-.navbar {
-  background-color:#25935f;
-  position: fixed;
-  top:0;
-  margin-left:2%;
-  width:95%;
-  height: 20%;
-  margin-right:0;
-  border-radius: 0px 0px 20px 20px;
-}
-.main-body {
-  margin-left:6%;
-  margin-right:6%;
-}
 .clear-fix {
   clear: both;
 }
-form.search {
-  height: 25%;
-}
-ul.menu-list {
-  float:left;
-  width: 96%;
+
+.jw-main-navigation {
+  position: fixed;
+  float: left;
+  top:0;
+  margin-left: 0;
   margin-right: 0;
+  width: 100%;
+  height: 16%;
 }
-li.menu-item {
+
+.jw-logo {
+  position:relative;
+  float:left;
+  margin: 0;
+  top:0;
+  padding: 0;oshua Brian Wilding
+  height: 100%;
+  width: 9%;
+  border-radius: 0px 0px 20px 20px;
+  background-color:#25935f;
+}
+
+img.jw-logo {
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+
+.jw-navbar {
+  position: relative;
+  float:left;
+  background-color:#25935f;
+  top:0;
+  margin-left: 0;
+  width:91%;
+  height: 38%;
+}
+
+ul.jw-navbar {
+  position:relative;
+  float:left;
+  margin-right: 0;
+  padding-left: 0;
+  margin-top:1%;
   list-style-type: none;
+}
+
+li.jw-navbar {
+  position:relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 0;
+  width: 5%;
   display: inline;
 }
-a.menu-link {
-  font-family: sans-serif;
-  font-size: 20px;
-  font-weight: bold;
+
+a.jw-navbar {
   color: #FFFFFF;
+  font-family: sans-serif;
+  font-weight: bold;
   text-decoration: none;
+  font-size: 20px;
 }
-div.search-container {
-  float:right;
+
+.jw-search {
+  position: fixed;
+  float:left;
   margin-top: 0;
-  margin-right: 2%;
-  margin-bottom: 0;
-}
-input.search-box {
-  position:relative;
-  margin-top:0;
-  margin-right: 0;
+  margin-left: 0;
+  margin-right:20%;
   margin-bottom: 0;
   padding:0;
-  width:100%;
-  float:right;
+  height:3%;
+  width: 50%;
   font-style:italic;
   font-family: sans-serif;
   font-size: 18px;
-  color:#606864;
   border-radius: 4px 4px 4px 4px;
-  border-color:#25935f;
-  border-style:solid;
-  border-width: 0px;
+  color: #A3A3A3;
 }
 
-div.ProfilePic {
-width = "200"
-height = "40"
-text-align: left;
+img.jw-search {
+  position:fixed;
+  float:right;
+  display: inline;
+  margin-left: 40%;
+  margin-top: 0;
+  margin-right: 0;
+  width: 30px;
+  height: 30px;
+}
+
+div.jw-saved-search-container {
+  position:fixed;
+  float:left;
+  padding:0;
+  margin-left: 16.6%;
+  margin-top: 2.4%;
+  width: 50%;
+  background-color: #85C2A5;
+}
+
+ul.jw-saved-search-container {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  font-size: 17px;
+  font-style: italic;
+  color: #FFFFFF;
+}
+
+li.jw-saved-search-container {
+  margin: 0;
+  border-width:5px;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-right: 20px;
+  padding-left: 1%;
+  border-style:solid;
+  border-color: #25935f;
+}
+
+a.jw-saved-search-container {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+body {
+  background-color:lightgray;
+  margin:0;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.main-body {
+  float:left;
+  margin-left:6%;
+  margin-right:6%;
+  margin-top: 160px;
+}
+
+/*
+  TERIK BRUNSON
+*/
+li.profileOne{
+	position:relative;
+	margin-left: 95%;
+}
+/*
+  MATT MORRIS
+*/
+.prof{
+	width: 30px;
+	heigth: 30px;
+  border-radius: 25px;
+}
+
+.home-body {
+  text-align:center;
+  margin-left:25%;
+  margin-right:25%;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+
+.buttons{
+  text-align:center;
+  margin-left:47%;
+  margin-right:50%;
+  margin-top: 750px;
+}
+
+.homeicon{
+  background-color:#25935f;
+	height: 30px;
+}
+
+.homeicon:hover{
+  border: solid 2px black;
+  border-radius: 20%;
+}
+
+.main {
+  text-align:center;
+  background-color:white;
+  border-radius: 25px;
+  border: solid 2px black;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 7%;
+  margin-bottom: 30%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.textBoxSize{
+  width: 60%;
+  height: 3%;
+}
+
+.submitButton {
+  float: center;
+  width: 30%;
+  height: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ProfilePicSize {
+  width: 80%;
+  border-radius: 25px;
+}
+
+.tempButton {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+.temporary {
+  float: left;
+  width: 10%;
+  height: 10%;
 }

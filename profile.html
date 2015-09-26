@@ -1,46 +1,54 @@
 <!DOCTYPE = html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/matt.css">
-    <title>Profile</title>
-  </head>
-  <body>
-    <div class="navbar">
-      <div class="clear-fix">
-        </div>
-        <ul class="menu-list">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/matt.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="javascript/matt.js"></script>
+</head>
+<body>
+  <div class="jw-main-navigation">
+    <div class="jw-logo">
+      <img src="http://www.fillmurray.com/150/150" class="jw-logo" alt="logo" />
+    </div>
+    <div class="jw-navbar">
+        <ul class="jw-navbar">
           <div class="clear-fix"></div>
-          <li class="menu-item">
-            <a class="menu-link" href="index.html">Home</a>
+          <li class="jw-navbar">
+            <a class="jw-navbar" href="home.html"><img src="home.png" class="homeicon" alt="home" /></a>
           </li>
-          <a class="menu-link" href="profile.html">Profile</a>
-          <li class="menu-item">
-            <a class="menu-link" href="dashboard.html">Dashboard</a>
+          <li class="jw-navbar">
+            <form>
+              <input class="jw-search">
+            </form>
           </li>
-          <li class="menu-item">
-            <div class="search-container">
-              <form>
-                <input class="search-box">
-              </form>
-            </div>
+          <li>
+            <a href="savesearch.html"><img src="http://www.clipartbest.com/cliparts/4cb/K7G/4cbK7Gggi.png" class="jw-search" alt="search" /></a>
           </li>
+        <li class="profileOne">
+          <a class="profileOne" href="profile.html"><img src="Empty_Profile_picture.png-square" class="prof" alt="prof" /></a>
+        </li>
         </ul>
+  </div>
+  </div>
 
-      <div class="ProfilePic">
-        <img src ="Empty_Profile_picture.png-square"
-        alt = "Empty Profile Picture"
-        width = "300"
-        height = "300"
-        margin-top: 300px;
-        >
+  <div class = "temporary">
+    <button class="tempButton">Click This!</button>
+  </div>
 
-      </div>
+  <div class = "main">
+    <img src="Empty_Profile_picture.png-square" class="ProfilePicSize" />
+
       <form>
           Username:<br>
-          <input type="text" name="Username">
+          <input type="text" name="Username" class = "textBoxSize">
           <br>
           Password:<br>
-          <input type="text" name="Password">
-          <input type="submit" value="Submit">
+          <input type="text" name="Password" class = "textBoxSize"><br>
+          <input type="submit" value="Submit" class = "submitButton">
       </form>
+  </div>
+
+
+</body>
 </html>
