@@ -3,7 +3,7 @@ var router = express.Router();
 
 router.get('/dashboard', function(req, res) {
   res.render('dashboard', {
-		layout: 'auth_base',
+		layout: 'template',
     title: 'User Dashboard!',
     welcome: 'Welcome to your dashboard!'
   })
