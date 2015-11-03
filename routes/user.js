@@ -11,7 +11,7 @@ router.get('/dashboard', function(req, res){
 
   request.get(options, function(error, response, body){
     var feed = JSON.parse(body)
-    console.log(body)
+    //console.log(body)
     res.render('dashboard', {
        feed: feed.data,
        layout: 'auth_base',
