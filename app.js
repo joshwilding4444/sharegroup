@@ -15,6 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRoutes)
 app.use('/savedsearch', savedSearchRoutes)
+app.use('/user', userRoutes)
 //app.use('/user', userRoutes)
 
 app.listen(port)

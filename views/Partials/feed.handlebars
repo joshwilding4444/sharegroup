@@ -1,7 +1,8 @@
-<h2>Feed</h2>
-<div class="box">
-  <p>Image Here</p>
-  <h3>Title Here</h3>
-  <p>Comments: 1</p>
-  <p>Likes: 1</p>
-</div>
+{{#each feed}}
+  <div class="border">
+    <img src="{{this.images.standard_resolution.url}}" class="photosize" />
+    <p>Likes: {{this.likes.count}} Comments: {{this.comments.count}} </p>
+    <button class="buttonleft">Love It!</button>
+    <button class="buttonright">Hate It!</button>
+  </div>
+{{/each}}
